@@ -1,0 +1,49 @@
+/* Rubik font family */
+
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/* Global variables */
+
+:root {
+    --grey0: #2E3440;
+    --grey1: #3B4252;
+    --grey2: #434C5E;
+    --grey3: #4C566A;
+    --white0: #ECEFF4;
+    --white1: #E5E9F0;
+    --white2: #D8DEE9;
+    --red: #BF616A;
+    --orange: #D08770;
+    --yellow: #EBCB8B;
+    --green: #A3BE8C;
+    --purple: #B48EAD;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Rubik', sans-serif;
+    color: var(--white0);
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    background-color: var(--grey0);
+}
+
+h1 {
+    font-weight: 500;
+}
+
+p {
+    font-weight: 400;
+}
+
+.nav-bar {
+    height: 3rem;
+    width: 100%;
+    position: fixed;
+    top: 0px;
+    background-color: var(--grey1);
+}
